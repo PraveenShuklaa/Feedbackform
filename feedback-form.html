@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>form</title>
+        <link rel="stylesheet" href="feedback-form.css">
+    </head>
+    <body>
+        <div class="login">
+            <h3><span onclick="document.getElementById('form').style.display='block'";>Click here to give your feedback</span></h3>
+        </div>
+        <div id="form">
+            <table>
+                <tr>
+                    <td class="left"><h1>Email:</h1></td>
+                    <td class="right"><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea cols="48" rows="10" placeholder="write your feedback here!"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="javascript:void(0)">
+                            <input onclick="document.getElementById('msg').style.display='block'"; type="submit" value="Submit"></a>
+                    </td>
+                </tr>
+            </table>
+            <h1 id="msg">Thanks for giving feedback!</h1>
+        </div>
+    </body>
+</html>
