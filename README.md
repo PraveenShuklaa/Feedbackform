@@ -1,2 +1,2 @@
-# Feedbackform-Smile
-feedback form with smile expression on submit thanks message with javascript
+# Feedbackform
+feedback form with smile expression on submit message with javascript
